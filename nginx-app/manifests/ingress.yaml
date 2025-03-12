@@ -4,7 +4,7 @@ metadata:
   name: nginx-ingress
   namespace: default
   annotations:
-    kubernetes.io/ingress.class: "nginx-tls"
+    kubernetes.io/ingress.class: "alb"
 spec:
   rules:
   - host: my-nginx.example-mzc.com  # 사용할 도메인
